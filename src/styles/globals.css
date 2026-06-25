@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * {
+    @apply border-light-border dark:border-dark-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-light-bg dark:bg-dark-bg text-zinc-800 dark:text-zinc-100;
+    @apply font-body antialiased;
+    @apply transition-colors duration-300;
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-accent-dark dark:text-accent-light;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent/40 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent/60;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-heading {
+    @apply font-display font-semibold text-2xl sm:text-3xl text-zinc-900 dark:text-white mb-2;
+  }
+
+  .section-subheading {
+    @apply font-body text-sm text-zinc-500 dark:text-zinc-400 uppercase tracking-widest mb-10;
+  }
+
+  .card {
+    @apply bg-light-card dark:bg-dark-card border border-light-border dark:border-dark-border rounded-xl p-5 sm:p-6;
+    @apply transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5;
+  }
+
+  .tag {
+    @apply font-mono text-xs px-2.5 py-1 rounded-md;
+    @apply bg-accent/10 text-accent dark:text-accent-light;
+    @apply border border-accent/20;
+  }
+
+  .nav-link {
+    @apply font-body text-sm text-zinc-500 dark:text-zinc-400 hover:text-accent dark:hover:text-accent-light;
+    @apply transition-colors duration-200;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-purple-400 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+
+  .dot-grid-dark {
+    background-image: radial-gradient(circle, #2a2a35 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .dot-grid-light {
+    background-image: radial-gradient(circle, #e2e2ee 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+}
