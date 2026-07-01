@@ -28,14 +28,14 @@ export function Hero() {
 
         {/* Name with cursor blink */}
         <h1 className="font-display font-bold text-4xl sm:text-6xl lg:text-7xl text-zinc-900 dark:text-white mb-4 animate-fade-up animate-delay-200">
-          Your Name
+           Syed Asrar Ahmed
           <span className="inline-block w-[3px] h-[0.85em] bg-accent ml-2 align-middle animate-cursor-blink" />
         </h1>
 
         {/* Role */}
         <h2 className="font-display text-xl sm:text-2xl text-zinc-500 dark:text-zinc-400 mb-6 animate-fade-up animate-delay-300">
-          Full Stack Developer &{' '}
-          <span className="gradient-text">UI Engineer</span>
+            Software Engineer &{' '}
+          <span className="gradient-text">Full Stack Developer</span>
         </h2>
 
         {/* Short bio */}

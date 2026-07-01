@@ -3,23 +3,23 @@ import type { SocialLink } from '@/types'
 export const socialLinks: SocialLink[] = [
   {
     platform: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/asrarahmed-01',
     icon: 'github',
-    username: '@yourusername',
+    username: '@asrarahmed-01',
     visible: true,
   },
   {
     platform: 'LinkedIn',
-    url: 'https://linkedin.com/in/yourusername',
+    url: 'https://linkedin.com/in/asrar-amd',
     icon: 'linkedin',
-    username: 'Your Name',
+    username: 'Asrar Ahmed',
     visible: true,
   },
   {
     platform: 'Mail',
-    url: 'mailto:your@email.com',
+    url: 'mailto:asrarahmed.syed1@email.com',
     icon: 'mail',
-    username: 'your@email.com',
+    username: 'asrarahmed.syed1@email.com',
     visible: true,
   },
   {
@@ -34,7 +34,7 @@ export const socialLinks: SocialLink[] = [
     url: 'https://behance.net/yourusername',
     icon: 'behance',
     username: '@yourusername',
-    visible: true,
+    visible: false,
   },
   {
     platform: 'LeetCode',
@@ -62,6 +62,6 @@ export const socialLinks: SocialLink[] = [
     url: 'https://codechef.com/users/yourusername',
     icon: 'codechef',
     username: '@yourusername',
-    visible: true,
+    visible: false,
   },
 ]

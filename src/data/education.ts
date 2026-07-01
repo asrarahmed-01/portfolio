@@ -4,10 +4,10 @@ export const education: Education[] = [
   {
     id: 'edu-1',
     degree: 'B.Tech in Computer Science & Engineering',
-    institution: 'Your University',
-    location: 'City, State',
-    startYear: '2019',
-    endYear: '2023',
+    institution: 'Sri Indu College of Engineering & Technology',
+    location: 'Hyderabad, Telangana, India',
+    startYear: '2021',
+    endYear: '2025',
     description: 'Focused on algorithms, data structures, and software engineering.',
     achievements: [
       'CGPA: 8.x / 10',

@@ -39,7 +39,7 @@ export function About() {
           <div className="md:col-span-2 space-y-4">
             {[
               { label: 'Location', value: 'Hyderabad, India' },
-              { label: 'Experience', value: '3+ years' },
+              { label: 'Experience', value: '1+ years' },
               { label: 'Focus', value: 'Full Stack + UI' },
               { label: 'Available', value: 'Open to work' },
             ].map(fact => (

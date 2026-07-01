@@ -3,10 +3,10 @@ import type { Experience } from '@/types'
 export const experiences: Experience[] = [
   {
     id: 'exp-1',
-    role: 'Senior Full Stack Developer',
-    company: 'Your Company',
-    companyUrl: 'https://example.com',
-    startDate: 'Jan 2023',
+    role: 'Software Engineer',
+    company: 'Magnax Pvt Ltd',
+    companyUrl: 'https://magnaxin.com',
+    startDate: 'August 2025',
     endDate: 'Present',
     description: 'Brief one-line description of what the company does.',
     bullets: [
@@ -19,11 +19,11 @@ export const experiences: Experience[] = [
   },
   {
     id: 'exp-2',
-    role: 'Frontend Developer',
-    company: 'Previous Company',
-    companyUrl: 'https://example.com',
-    startDate: 'Jun 2021',
-    endDate: 'Dec 2022',
+    role: 'Software Engineer Intern',
+    company: 'Magnax Pvt Ltd',
+    companyUrl: 'https://magnaxin.com',
+    startDate: 'March 2025',
+    endDate: 'August 2025',
     description: 'Brief one-line description of what the company does.',
     bullets: [
       'Developed responsive UIs using React and Tailwind CSS for fintech products.',
